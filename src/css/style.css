@@ -1,0 +1,27 @@
+.game-container {
+  border: 1px solid silver;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 1%;
+  background-color: greenyellow;
+}
+
+.cell {
+  border: 1px solid silver;
+  border-radius: 50%;
+  width: 23.75%;
+  height: 23.75%;
+  box-sizing: border-box;
+  position: relative; 
+  padding: 7.5px 7.5px;
+  background-color: green;
+}
+
+.goblin {
+  width: 100%;
+  height: 100%;
+}
